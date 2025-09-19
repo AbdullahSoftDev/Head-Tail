@@ -1,0 +1,12 @@
+This Is my 2nd Semester Project which is based on the Hand Cricket Logic.
+
+This project simulates a Heads or Tails coin toss game using C++. It generates a random outcome and prompts the user to guess the result. The program then compares the user's guess to the random outcome and displays whether they won or lost.
+
+How It Works
+Random Number Generation: The srand(time(0)) function seeds the random number generator using the current time. This ensures a different sequence of random numbers each time the program runs, making the coin toss truly random. The rand() % 2 expression generates a random number that is either 0 or 1.
+
+User Input: The program uses a do-while loop to ensure the user enters a valid choice (1 for Heads, 2 for Tails). It prompts the user to make a guess and validates the input.
+
+Decision Logic: An if-else statement compares the user's guess with the computer's random choice.
+
+Output: The program provides clear, formatted output showing the computer's choice, the user's guess, and the final result (win or lose). It uses different colors to enhance the visual appeal of the output.
